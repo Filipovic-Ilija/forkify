@@ -1,0 +1,6 @@
+document.querySelector("#others-section > div:nth-child(2) > div > a").textContent="Zobacz powiązanych partnerów";
+document.querySelector("#others-section > div:nth-child(3) > div > a").textContent="Zobacz powiązanych partnerów";
+document.querySelector("#others-section > div:nth-child(4) > div > a").textContent="Zobacz powiązanych partnerów";
+document.querySelector("#privacy-cat-modal > div > div > div.modal-footer > div.flex-space-between > div:nth-child(1) > a:nth-child(2)").textContent="Zobacz cel";
+document.querySelector("#privacy-cat-modal-title").textContent="Szczegóły";
+document.querySelector("#privacy-cat-modal > div > div > div.modal-footer > div.flex-space-between > div:nth-child(1) > a:nth-child(1)").textContent="Pokaż dostawcę";
