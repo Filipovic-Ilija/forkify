@@ -35,6 +35,10 @@ const controlRecipes = async function () {
   }
 };
 
+const newfeature = function() {
+  console.log("welcome to new feature");
+}
+
 const controlSearchResults = async function () {
   try {
     resultsView.renderSpinner();
@@ -127,5 +131,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newfeature();
 };
 init();
